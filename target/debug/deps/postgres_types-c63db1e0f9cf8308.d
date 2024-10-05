@@ -1,0 +1,9 @@
+/home/pedersandvoll/dev/rust/passwd_manager/target/debug/deps/libpostgres_types-c63db1e0f9cf8308.rmeta: /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/lib.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/pg_lsn.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/private.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/special.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/type_gen.rs
+
+/home/pedersandvoll/dev/rust/passwd_manager/target/debug/deps/postgres_types-c63db1e0f9cf8308.d: /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/lib.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/pg_lsn.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/private.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/special.rs /home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/type_gen.rs
+
+/home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/lib.rs:
+/home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/pg_lsn.rs:
+/home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/private.rs:
+/home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/special.rs:
+/home/pedersandvoll/.cargo/registry/src/index.crates.io-6f17d22bba15001f/postgres-types-0.2.8/src/type_gen.rs:
