@@ -12,13 +12,20 @@ pub fn list_available_passwords(file_path: PathBuf) {
         if let Ok(line) = line {
             if line.contains("password_name") {
                 password_count += 1;
-                let line_split: String = line
+                let line_split: Result<String, &str> = line
                     .split(" ")
                     .last()
-                    .unwrap()
-                    .parse::<String>()
-                    .expect("No passwords");
-                println!("{}: {}", password_count, line_split);
+                    .ok_or("No words found")
+                    .and_then(|s| s.parse::<String>().map_err(|_| "Failed to parse string"));
+
+                match line_split {
+                    Ok(password) => {
+                        println!("{}. {}", password_count, password);
+                    }
+                    Err(e) => {
+                        println!("Error: {}", e);
+                    }
+                }
             }
         }
     }
